@@ -52,6 +52,7 @@ semantic conventions when instrumenting runtime environments.
 - [Node.js](nodejs-metrics.md)
 - [V8 JS Engine](v8js-metrics.md)
 - [.NET](dotnet-metrics.md)
+- [BEAM](beam-metrics.md)
 
 ### Attributes
 
