@@ -429,6 +429,14 @@ groups:
     unit: "{table}"
     brief: "Erlang VM ETS Tables count."
 
+  - id: metric.beam.dets.count
+    type: metric
+    metric_name: beam.dets.count
+    stability: experimental
+    instrument: gauge
+    unit: "{table}"
+    brief: "Erlang VM DETS Tables count."
+
   # Metrics only available if Microstate Accounting has been enabled
   - id: attributes.beam.cpu
     prefix: beam.cpu
